@@ -19,11 +19,12 @@ steps:
     npm install
     npm run e2e
     node report_html.js
-  displayName: 'npm install and build'
-  
+    cd reports
+    cd cucumber-htmlreport.html
+  displayName: 'Run automation test'
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: 'reports'
     artifact: 'reports'
-    publishLocation: 'pipeline'
+    publishLocation: pipeline'
 
