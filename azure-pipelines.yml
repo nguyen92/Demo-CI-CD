@@ -29,9 +29,9 @@ steps:
     targetPath: 'reports'
     artifact: 'Publish report'
     publishLocation: 'pipeline'
-- task: DownloadBuildArtifacts@1
+
+- task: DownloadPipelineArtifact@2
   inputs:
     buildType: 'current'
-    downloadType: 'single'
-    artifactName: 'Publish report'
-    downloadPath: 'Downloads'
+    artifactName: 'Download report'
+    targetPath: '$(Pipeline.Workspace)'
