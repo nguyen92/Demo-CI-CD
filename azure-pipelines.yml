@@ -34,4 +34,4 @@ steps:
   inputs:
     buildType: 'current'
     artifactName: 'Download report'
-    targetPath: 'C:\\download\\'
+    targetPath: 'current'
