@@ -19,7 +19,7 @@ steps:
 
 - script: |
     npm install
-    npm run e2e
+    ./node_modules/.bin/cucumber-js --require cucumber.conf.js --format json:./reports/report.json --require tests/step_definitions/*.js tests/features/*.feature
     node report_html.js
     cd reports
     cd cucumber-htmlreport.html
