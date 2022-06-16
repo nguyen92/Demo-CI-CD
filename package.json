@@ -16,6 +16,5 @@
     "cucumber": "^6.0.7",
     "playwright": "^1.22.2",
     "multiple-cucumber-html-reporter": "^1.18.0"
-    
   }
 }
