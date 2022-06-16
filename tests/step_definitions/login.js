@@ -30,12 +30,12 @@ When("click on the Submit button", async () => {
 When("user is navigated to the homepage", async () => {
   await page.waitForTimeout(3000);
   let currentUrl = await page.url();
- expect('https://phamiliartech.com/dashboard').toEqual(currentUrl);
+   expect('https://phamiliartech.com/dashboard').toEqual(currentUrl);
   
 });
 
 When("error message is displayed", async () => {
-  await page.waitForTimeout(1000);
- expect(page.locator('#signInError')).toBeVisible();
+  await page.waitForTimeout(1500);
+  await expect(page.locator('#signInError')).toBeVisible();
   
 });
