@@ -10,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "npm": "^8.0.0",
     "@cucumber/cucumber": "^8.3.0",
     "@playwright/test": "^1.22.2",
     "cucumber": "^6.0.7",
     "playwright": "^1.22.2",
-    "multiple-cucumber-html-reporter": "^1.18.0"
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    
   }
 }
