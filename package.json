@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "e2e": "./node_modules/.bin/cucumber-js --require cucumber.conf.js --require tests/step_definitions/*.js tests/features/*.feature"
+    "e2e": "./node_modules/.bin/cucumber-js --require cucumber.conf.js --format json:./reports/report.json --require tests/step_definitions/*.js tests/features/*.feature"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,381 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-the-system;authorized-user-can-login-to-the-system",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Authorized user can login to the system",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288963598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "navigates to the url 'https://phamiliartech.com/account/sign-in'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4480944299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enter email 'nppn.nguyen@gmail.com', 'Demo1234'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158818801
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click on the Sign button",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63094700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enter PIN '123456'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 434276100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "click on the Submit button",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234872098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user is navigated to the homepage",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3009718400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44760500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-the-system;authorized-user-can-login-to-the-system",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Authorized user can login to the system",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 619412199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "navigates to the url 'https://phamiliartech.com/account/sign-in'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3616372798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enter email 'nppn.nguyen@gmail.com', 'Demo1234'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85566600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click on the Sign button",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52490701
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enter PIN '123456'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 406558700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "click on the Submit button",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508162199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user is navigated to the homepage",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3010307100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 138425099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-the-system;unuthorized-user-cannot-access-the-system",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Unuthorized user cannot access the system",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 198129699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "navigates to the url 'https://phamiliartech.com/account/sign-in'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3770301699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "user enter email 'abc@gmail.com', 'Demo1234'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70892400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "click on the Sign button",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59887001
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "error message is displayed",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1016072999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 41118401
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-the-system;unuthorized-user-cannot-access-the-system",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Unuthorized user cannot access the system",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 196861000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "navigates to the url 'https://phamiliartech.com/account/sign-in'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3868895601
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "user enter email 'abc@gmail.com', 'Demo1234'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70782700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "click on the Sign button",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53515499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "error message is displayed",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1020142499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42569699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-the-system",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login to the system",
+    "tags": [],
+    "uri": "tests\\features\\login.feature"
+  }
+]
