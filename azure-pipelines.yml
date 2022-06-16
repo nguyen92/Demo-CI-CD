@@ -20,7 +20,8 @@ steps:
     npm run e2e
     node report_html.js
   displayName: 'npm install and build'
-inputs:
+- task: Test
+   inputs:
     targetPath: 'reports'
     artifact: 'reports'
     publishLocation: 'pipeline'
