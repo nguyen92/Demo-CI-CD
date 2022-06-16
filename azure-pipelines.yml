@@ -19,7 +19,8 @@ steps:
 
 - script: |
     npm install
-    npm run e2e
+    npx playwright install
+    ./node_modules/.bin/cucumber-js --require cucumber.conf.js --format json:./reports/report.json --require tests/step_definitions/*.js tests/features/*.feature
     node report_html.js
     cd reports
     cd cucumber-htmlreport.html
@@ -29,8 +30,3 @@ steps:
     targetPath: 'reports'
     artifact: 'Publish report'
     publishLocation: 'pipeline'
-
-- task: DownloadPipelineArtifact@2
-  inputs:
-    buildType: 'current'
-    targetPath: '$(Pipeline.Workspace)'
