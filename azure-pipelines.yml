@@ -22,5 +22,5 @@ steps:
   displayName: 'npm install and build'
    
 inputs:
-   targetPath: 'reports'
-   artifact: 'reports'
+   targetPath: './reports'
+   artifact: './reports'
