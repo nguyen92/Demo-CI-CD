@@ -19,7 +19,7 @@ steps:
     npm install
     npm run e2e
   displayName: 'npm install and build'
-  inputs:
+inputs:
     targetPath: 'reports'
     artifact: 'reports'
     publishLocation: 'pipeline'
