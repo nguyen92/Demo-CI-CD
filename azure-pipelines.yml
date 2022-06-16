@@ -18,6 +18,7 @@ steps:
 - script: |
     npm install
     npm run e2e
+    node report_html.js
   displayName: 'npm install and build'
 inputs:
     targetPath: 'reports'
