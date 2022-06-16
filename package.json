@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js --require cucumber.conf.js --require tests/step_definitions/*.js",
     "e2e": "./node_modules/.bin/cucumber-js --require cucumber.conf.js --require tests/step_definitions/*.js tests/features/*.feature"
   },
   "keywords": [],
