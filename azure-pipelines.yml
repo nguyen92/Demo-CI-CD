@@ -23,3 +23,10 @@ steps:
     node report_html.js
   displayName: 'Run automation test'
 
+- task: PublishTestResults@- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/TEST-*.xml'
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/TEST-*.xml'
