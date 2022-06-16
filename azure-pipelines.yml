@@ -33,5 +33,5 @@ steps:
 - task: DownloadPipelineArtifact@2
   inputs:
     buildType: 'current'
-    artifactName: 'Download report'
+    artifactName: 'Publish report'
     targetPath: '$(Pipeline.Workspace)'
