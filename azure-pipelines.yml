@@ -2,6 +2,7 @@
 
 
 
+
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
@@ -28,3 +29,7 @@ steps:
     targetPath: 'reports'
     artifact: 'publish report'
     publishLocation: 'pipeline'
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/TEST-*.xml'
