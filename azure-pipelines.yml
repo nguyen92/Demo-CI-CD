@@ -25,6 +25,6 @@ steps:
   displayName: 'Run automation test'
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '.reports/'
+    targetPath: 'reports'
     artifact: 'publish report'
     publishLocation: 'pipeline'
