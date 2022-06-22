@@ -1,0 +1,30 @@
+pipeline {
+    agent {
+        docker {
+            image  'mcr.microsoft.com/playwright:v1.22.0-focal'
+        }
+    }
+    stages {
+        stage ('instal playwright') {
+            steps {
+                sh ''' 
+                npm install 
+                '''
+            }
+        }
+        stage ('run test') {
+            steps {
+                sh ''' 
+                npm run e2e
+                '''
+            }
+        }
+           stage ('export report') {
+            steps {
+                sh ''' 
+                node report_html.js
+                '''
+            }
+        }
+    }
+}
