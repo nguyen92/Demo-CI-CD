@@ -11,7 +11,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 steps:
 - task: NodeTool@0
@@ -29,7 +29,8 @@ steps:
     targetPath: 'reports'
     artifact: 'publish report'
     publishLocation: 'pipeline'
-- task: PublishTestResults@2
+- task: DownloadPipelineArtifact@2
   inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TEST-*.xml'
+    buildType: 'current'
+    artifactName: 'download report'
+    targetPath: '$(Pipeline.Workspace)'
