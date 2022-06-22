@@ -1,9 +1,4 @@
 pipeline {
-    agent {
-        docker {
-            image  'mcr.microsoft.com/playwright:v1.19.0-focal'
-        }
-    }
     stages {
         stage ('instal playwright') {
             steps {
