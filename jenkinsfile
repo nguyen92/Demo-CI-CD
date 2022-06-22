@@ -3,23 +3,22 @@ pipeline {
     stages {
         stage ('instal playwright') {
             steps {
-                sh ''' 
-                npm install 
-                '''
+             bat  "npm install"
+               
             }
         }
         stage ('run test') {
             steps {
-                sh ''' 
-                npm run e2e
-                '''
+               
+             bat "npm run e2e"
+                
             }
         }
            stage ('export report') {
             steps {
-                sh ''' 
-                node report_html.js
-                '''
+                
+              bat  "node report_html.js"
+               
             }
         }
     }
