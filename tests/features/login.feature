@@ -14,7 +14,7 @@ Feature:  Login to the system
       | nppn.nguyen@gmail.com | Demo1234 | 123456 |
 
 
-  Scenario Outline: Unuthorized user cannot access the system
+  Scenario Outline: Unauthorized user cannot access the system
 
     Given navigates to the url 'https://phamiliartech.com/account/sign-in'
     When user enter email '<Email>', '<Password>'

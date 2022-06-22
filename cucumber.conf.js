@@ -6,7 +6,8 @@ const { chromium } = require("playwright");
 setDefaultTimeout(60000)
 BeforeAll(async function () {
     global.browser = await chromium.launch({
-        channel: "chrome"
+        channel: "chrome",
+        headless: false
     });
  
  });
