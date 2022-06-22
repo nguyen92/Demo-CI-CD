@@ -29,7 +29,3 @@ steps:
     targetPath: 'reports'
     artifact: 'publish report'
     publishLocation: 'pipeline'
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TEST-*.xml'
