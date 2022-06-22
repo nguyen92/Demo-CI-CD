@@ -29,8 +29,3 @@ steps:
     targetPath: 'reports'
     artifact: 'publish report'
     publishLocation: 'pipeline'
-- task: DownloadPipelineArtifact@2
-  inputs:
-    buildType: 'current'
-    artifactName: 'download report'
-    targetPath: 'reports'
