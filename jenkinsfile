@@ -3,9 +3,7 @@ pipeline {
     stages {
         stage ('instal playwright') {
             steps {
-             bat  "npm install"
-             bat  "npm install @cucumber/cucumber@7.3.2"
-               
+             bat  "npm install"               
             }
         }
         stage ('run test') {
