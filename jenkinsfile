@@ -3,23 +3,23 @@ pipeline {
     stages {
         stage ('instal playwright') {
             steps {
-             bat  "npm install playwright"
-             bat  "npm install @cucumber/cucumber"   
-             bat  "npm install @playwright/test"   
-             bat  "npm install cucumber-html-reporter"                  
+             sh "npm install -g playwright"
+             sh  "npm install -g @cucumber/cucumber"   
+             sh  "npm install  -g @playwright/test"   
+             sh  "npm install -g cucumber-html-reporter"                  
             }
         }
         stage ('run test') {
             steps {
                
-             bat "npm run e2e"
+             sh "npm run e2e"
                 
             }
         }
            stage ('export report') {
             steps {
                 
-              bat  "node report_html.js"
+              sh  "node report_html.js"
                
             }
         }
