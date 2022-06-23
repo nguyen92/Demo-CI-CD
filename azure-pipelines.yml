@@ -12,7 +12,9 @@ trigger:
 
 resources:
  pipelines:
-   - pipeline: Demo CI
+   - pipeline: Demo-CI-CD
+     source: Demo-CI-CD
+     trigger: true
 
 pool:
   vmImage: ubuntu-latest
