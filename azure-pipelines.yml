@@ -12,8 +12,8 @@ trigger:
 
 resources:
  pipelines:
-   - pipeline: Demo OPreddy-CI
-     source: Demo OPreddy-CI
+   - pipeline: Demo Opreddy-CI
+     source: Demo Opreddy-CI
      trigger: true
 
 pool:
