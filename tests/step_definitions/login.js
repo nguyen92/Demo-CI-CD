@@ -38,4 +38,5 @@ When("error message is displayed", async () => {
   await page.waitForTimeout(1500);
   await expect(page.locator('#signInError')).toBeVisible();
   await page.waitForTimeout(1500);
+  await page.waitForTimeout(1500);
 });
