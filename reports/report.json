@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 88000000
+              "duration": 387000000
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4173000000
+              "duration": 5023000000
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 120000000
+              "duration": 176000000
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 82000000
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 446000000
+              "duration": 1034000000
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 457000000
+              "duration": 452000000
             }
           },
           {
@@ -100,7 +100,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 208000000
             }
           }
         ],
@@ -119,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 109000000
+              "duration": 524000000
             }
           },
           {
@@ -132,7 +140,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3878000000
+              "duration": 4310000000
             }
           },
           {
@@ -145,7 +153,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 144000000
+              "duration": 172000000
             }
           },
           {
@@ -158,7 +166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 59000000
+              "duration": 70000000
             }
           },
           {
@@ -171,7 +179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 446000000
+              "duration": 425000000
             }
           },
           {
@@ -184,7 +192,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 224000000
+              "duration": 451000000
             }
           },
           {
@@ -197,7 +205,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3010000000
+              "duration": 3012000000
             }
           },
           {
@@ -205,7 +213,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94000000
             }
           }
         ],
@@ -224,7 +240,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 129000000
+              "duration": 424000000
             }
           },
           {
@@ -237,7 +253,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3647000000
+              "duration": 3932000000
             }
           },
           {
@@ -250,7 +266,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 153000000
             }
           },
           {
@@ -263,7 +279,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74000000
+              "duration": 72000000
             }
           },
           {
@@ -276,7 +292,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1533000000
+              "duration": 1540000000
             }
           },
           {
@@ -284,7 +300,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 147000000
             }
           }
         ],
@@ -301,6 +325,45 @@
           {
             "keyword": "Before",
             "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "navigates to the url 'https://phamiliartech.com/account/sign-in'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "user enter email 'abc@gmail.com', 'Demo1234'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "click on the Sign button",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:16"
+            },
             "result": {
               "status": "passed",
               "duration": 87000000
@@ -308,45 +371,6 @@
           },
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 19,
-            "name": "navigates to the url 'https://phamiliartech.com/account/sign-in'",
-            "match": {
-              "location": "tests\\step_definitions\\login.js:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4295000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 20,
-            "name": "user enter email 'abc@gmail.com', 'Demo1234'",
-            "match": {
-              "location": "tests\\step_definitions\\login.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 110000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "click on the Sign button",
-            "match": {
-              "location": "tests\\step_definitions\\login.js:16"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 60000000
-            }
-          },
-          {
-            "arguments": [],
             "keyword": "Then ",
             "line": 22,
             "name": "error message is displayed",
@@ -355,7 +379,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1513000000
+              "duration": 1528000000
             }
           },
           {
@@ -363,7 +387,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 137000000
             }
           }
         ],
