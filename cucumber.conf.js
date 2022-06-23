@@ -18,7 +18,12 @@ BeforeAll(async function () {
  
  // Create a new browser context and page per scenario
  Before(async function () {
-    global.context = await global.browser.newContext();
+    global.context = await global.browser.newContext({
+      viewport: {
+         width: 1920,
+         height: 1080,
+       },
+    });
     global.page = await global.context.newPage();
     
  });
@@ -28,3 +33,13 @@ BeforeAll(async function () {
     await global.page.close();
     await global.context.close();
  });
+
+ After(async function (scenario) {
+   const scenarioStatus= scenario.result.status
+   //console.log(`:cucumber: Failed scenario, Taking screenshot.... "${scenario.pickle.name}"`);
+   if(scenarioStatus==='FAILED') {
+     var buffer = await global.page.screenshot({ path: `./reports/screenshots/${scenario.pickle.name}.png`, fullPage: true })
+     this.attach(buffer, 'image/png');
+   }
+ });
+ 
