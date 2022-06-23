@@ -4,8 +4,7 @@ pipeline {
         stage ('instal playwright') {
             steps {
              bat "npm install -g playwright"
-             bat  "npm install -g @cucumber/cucumber"   
-             bat  "npm install  -g @playwright/test"   
+             bat  "npm install -g @cucumber/cucumber"      
              bat  "npm install -g cucumber-html-reporter"                  
             }
         }
