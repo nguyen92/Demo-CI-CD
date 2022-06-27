@@ -1,11 +1,11 @@
 const { Before, BeforeAll, AfterAll, After, setDefaultTimeout } = require("@cucumber/cucumber");
 // you can choose other browsers like webkit or firefox according to your requirement
-const { chromium } = require("playwright");
+const playwright  = require("playwright");
 
 // in milliseconds
 setDefaultTimeout(60000)
 BeforeAll(async function () {
-    global.browser = await chromium.launch({
+    global.browser = await playwright['firefox'].launch({
     });
  
  });
@@ -19,6 +19,9 @@ BeforeAll(async function () {
  // Create a new browser context and page per scenario
  Before(async function () {
     global.context = await global.browser.newContext({
+      recordVideo: {
+         dir: 'videos/'
+      },
       viewport: {
          width: 1920,
          height: 1080,

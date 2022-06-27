@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 387000000
+              "duration": 780000000
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5023000000
+              "duration": 5050000000
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 176000000
+              "duration": 245000000
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 82000000
+              "duration": 115000000
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1034000000
+              "duration": 488000000
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 452000000
+              "duration": 368000000
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3018000000
+              "duration": 3011000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 208000000
+              "duration": 45000000
             }
           }
         ],
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 524000000
+              "duration": 282000000
             }
           },
           {
@@ -140,7 +140,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4310000000
+              "duration": 4511000000
             }
           },
           {
@@ -153,7 +153,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 172000000
+              "duration": 222000000
             }
           },
           {
@@ -166,7 +166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70000000
+              "duration": 107000000
             }
           },
           {
@@ -179,7 +179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 425000000
+              "duration": 491000000
             }
           },
           {
@@ -192,7 +192,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 451000000
+              "duration": 418000000
             }
           },
           {
@@ -213,93 +213,6 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 94000000
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login-to-the-system;unauthorized-user-cannot-access-the-system",
-        "keyword": "Scenario Outline",
-        "line": 17,
-        "name": "Unauthorized user cannot access the system",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 424000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 19,
-            "name": "navigates to the url 'https://phamiliartech.com/account/sign-in'",
-            "match": {
-              "location": "tests\\step_definitions\\login.js:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3932000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 20,
-            "name": "user enter email 'abc@gmail.com', 'Demo1234'",
-            "match": {
-              "location": "tests\\step_definitions\\login.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 153000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "click on the Sign button",
-            "match": {
-              "location": "tests\\step_definitions\\login.js:16"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 72000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 22,
-            "name": "error message is displayed",
-            "match": {
-              "location": "tests\\step_definitions\\login.js:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1540000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
               "duration": 1000000
             }
           },
@@ -308,7 +221,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 147000000
+              "duration": 56000000
             }
           }
         ],
@@ -327,7 +240,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 410000000
+              "duration": 267000000
             }
           },
           {
@@ -340,7 +253,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4370000000
+              "duration": 4222000000
             }
           },
           {
@@ -353,7 +266,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 152000000
+              "duration": 167000000
             }
           },
           {
@@ -366,7 +279,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 87000000
+              "duration": 115000000
             }
           },
           {
@@ -379,7 +292,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1528000000
+              "duration": 4566000000
             }
           },
           {
@@ -395,7 +308,94 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 137000000
+              "duration": 63000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-the-system;unauthorized-user-cannot-access-the-system",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Unauthorized user cannot access the system",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "navigates to the url 'https://phamiliartech.com/account/sign-in'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "user enter email 'abc@gmail.com', 'Demo1234'",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "click on the Sign button",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "error message is displayed",
+            "match": {
+              "location": "tests\\step_definitions\\login.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4563000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71000000
             }
           }
         ],
