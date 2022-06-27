@@ -35,3 +35,9 @@ steps:
     targetPath: 'reports'
     artifact: 'publish report'
     publishLocation: 'pipeline'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: 'videos'
+    artifact: 'publish video'
+    publishLocation: 'pipeline'
