@@ -45,6 +45,6 @@ steps:
 
 - task: publishhtmlreport@1
   inputs:
-    htmlType: 'html'
+    htmlType: 'genericHTML'
     htmlPath: 'reports/cucumber_report.html'
     
