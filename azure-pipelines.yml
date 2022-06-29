@@ -41,3 +41,9 @@ steps:
     targetPath: 'videos'
     artifact: 'publish video'
     publishLocation: 'pipeline'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'VSTest'
+    testResultsFiles: '**/TEST-*.xml'
+    failTaskOnFailedTests: true
