@@ -41,3 +41,10 @@ steps:
     targetPath: 'videos'
     artifact: 'publish video'
     publishLocation: 'pipeline'
+
+
+- task: publishhtmlreport@1
+  inputs:
+    htmlType: 'genericHTML'
+    htmlPath: 'reports/cucumber_report.html'
+    
