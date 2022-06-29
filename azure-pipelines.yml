@@ -42,8 +42,9 @@ steps:
     artifact: 'publish video'
     publishLocation: 'pipeline'
 
-- task: PublishTestResults@2
+
+- task: publishhtmlreport@1
   inputs:
-    testResultsFormat: 'VSTest'
-    testResultsFiles: '**/TEST-*.xml'
-    failTaskOnFailedTests: true
+    htmlType: 'genericHTML'
+    htmlPath: 'reports/cucumber_report.html'
+    
