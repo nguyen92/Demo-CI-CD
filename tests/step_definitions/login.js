@@ -31,6 +31,7 @@ When("user is navigated to the homepage", async () => {
   await page.waitForTimeout(3000);
   let currentUrl = await page.url();
    expect('https://phamiliartech.com/dashboard').toEqual(currentUrl);
+   await page.waitForTimeout(3000);
   
 });
 

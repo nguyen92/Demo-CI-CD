@@ -5,7 +5,7 @@ const playwright  = require("playwright");
 // in milliseconds
 setDefaultTimeout(60000)
 BeforeAll(async function () {
-    global.browser = await playwright['firefox'].launch({
+    global.browser = await playwright['chromium'].launch({
     });
  
  });
@@ -20,7 +20,8 @@ BeforeAll(async function () {
  Before(async function () {
     global.context = await global.browser.newContext({
       recordVideo: {
-         dir: 'videos/'
+         dir: 'videos/',
+         size: { width: 1920, height: 1080}
       },
       viewport: {
          width: 1920,
