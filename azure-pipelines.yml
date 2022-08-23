@@ -22,7 +22,7 @@ steps:
 - script: |
     npm install
     npm run e2e
-    node report_html.js
+    node reporter_multiple.js
   displayName: 'Run automation test'
 - task: PublishPipelineArtifact@1
   inputs:
