@@ -1,11 +1,12 @@
 const { Before, BeforeAll, AfterAll, After, setDefaultTimeout } = require("@cucumber/cucumber");
 // you can choose other browsers like webkit or firefox according to your requirement
-const { chromium } = require("playwright");
+const playwright  = require("playwright");
 
 // in milliseconds
 setDefaultTimeout(60000)
 BeforeAll(async function () {
-    global.browser = await chromium.launch({
+    global.browser = await playwright['chromium'].launch({
+       headless:false
     });
  
  });
@@ -17,11 +18,15 @@ BeforeAll(async function () {
  });
  
  // Create a new browser context and page per scenario
- Before(async function () {
+ Before(async function (scenario) {
     global.context = await global.browser.newContext({
       viewport: {
          width: 1920,
          height: 1080,
+       },
+       recordVideo: {
+         dir: "/reports/videos" +scenario.pickle.name,
+         size: {width: 1920,height: 1080},
        },
     });
     global.page = await global.context.newPage();
@@ -29,10 +34,6 @@ BeforeAll(async function () {
  });
  
  // Cleanup after each scenario
- After(async function () {
-    await global.page.close();
-    await global.context.close();
- });
 
  After(async function (scenario) {
    const scenarioStatus= scenario.result.status
@@ -41,5 +42,7 @@ BeforeAll(async function () {
      var buffer = await global.page.screenshot({ path: `./reports/screenshots/${scenario.pickle.name}.png`, fullPage: true })
      this.attach(buffer, 'image/png');
    }
+   await global.page.close();
+    await global.context.close();
  });
  

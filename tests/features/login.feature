@@ -1,28 +1,17 @@
-Feature:  Login to the system
+Feature: Login  
 
-  Scenario Outline: Authorized user can login to the system
-
-    Given navigates to the url 'https://phamiliartech.com/account/sign-in'
-    When user enter email '<Email>', '<Password>'
-    And click on the Sign button
-    And user enter PIN '<PIN>'
-    And click on the Submit button
-    Then user is navigated to the homepage
-    Examples:
-      | Email                 | Password | PIN    |
-      | nppn.nguyen@gmail.com | Demo1234 | 123456 |
-      | nppn.nguyen@gmail.com | Demo1234 | 123456 |
-
-
-  Scenario Outline: Unauthorized user cannot access the system
-
-    Given navigates to the url 'https://phamiliartech.com/account/sign-in'
-    When user enter email '<Email>', '<Password>'
-    And click on the Sign button
-    Then error message is displayed
-    Examples:
-      | Email         | Password | PIN    |
-      | abc@gmail.com | Demo1234 | 123456 |
-      | abc@gmail.com | Demo1234 | 123456 |
-
+  Background:  Open the page
+  Given navigates to the url 'https://www.saucedemo.com/'
+  
+  Scenario: As a standard user I can access to the system
+    When I enter username 'standard_user'
+    And enter password 'secret_sauce'
+    And I click on the Login button 
+    Then I can access the system
+    
+  Scenario: As a locked user I cannot access to the system
+    When I enter username 'locked_out_user'
+    And enter password 'secret_sauce'
+    And I click on the Login button 
+    Then the error message 'Epic sadface: Sorry, this user has been locked out.' displays
 
