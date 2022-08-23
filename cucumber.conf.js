@@ -7,6 +7,7 @@ setDefaultTimeout(60000)
 BeforeAll(async function () {
     global.browser = await playwright['chromium'].launch({
        headless:false
+
     });
  
  });
@@ -20,6 +21,10 @@ BeforeAll(async function () {
  // Create a new browser context and page per scenario
  Before(async function (scenario) {
     global.context = await global.browser.newContext({
+      recordVideo: {
+         dir: 'videos/',
+         size: { width: 1920, height: 1080}
+      },
       viewport: {
          width: 1920,
          height: 1080,
@@ -45,4 +50,4 @@ BeforeAll(async function () {
    await global.page.close();
     await global.context.close();
  });
- 
+   
