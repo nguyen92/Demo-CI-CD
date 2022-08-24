@@ -17,11 +17,11 @@ When("navigates to the url {string}", async (url)=> {
      await page.click(login.loginBtn);
    });
 When("I can access the system", async function () {
-    const currentUrl = await page.url()
-    expect(currentUrl).toContain('/inventory.html')
+  await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html')
   });
   When("the error message {string} displays", async function (errMessage) {
-    const err = await page.locator('//h3')
+    await page.waitForSelector('h3');
+    const err = await page.locator('h3')
     await expect(err).toHaveText(errMessage)
   });
 

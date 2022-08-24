@@ -6,7 +6,7 @@
         "description": "",
         "id": "functional;as-a-standard-user-i-can-buy-product",
         "keyword": "Scenario Outline",
-        "line": 7,
+        "line": 8,
         "name": "As a standard user I can buy product",
         "steps": [
           {
@@ -14,163 +14,163 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 686000000
+              "duration": 744000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "navigates to the url 'https://www.saucedemo.com/'",
             "match": {
               "location": "tests/step_definitions/login_step.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 751000000
+              "duration": 392000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 5,
+            "line": 6,
             "name": "login to the system with username 'standard_user' and password 'secret_sauce'",
             "match": {
               "location": "tests/step_definitions/functional_step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 437000000
+              "duration": 539000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
+            "line": 9,
             "name": "I add 'Sauce Labs Backpack' to cart",
             "match": {
               "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 313000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I add 'Sauce Labs Bike Light' to cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 99000000
+              "duration": 307000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "verify the number of badge is '2'",
+            "name": "I add 'Sauce Labs Bike Light' to cart",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:15"
+              "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 72000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "I go to shopping cart",
+            "name": "verify the number of badge is '2'",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:20"
+              "location": "tests/step_definitions/functional_step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 1535000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "verify 'Sauce Labs Backpack' and 'Sauce Labs Bike Light' are displayed",
+            "name": "I go to shopping cart",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:25"
+              "location": "tests/step_definitions/functional_step.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 47000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "click on the Checkout button",
+            "name": "verify 'Sauce Labs Backpack' and 'Sauce Labs Bike Light' are displayed",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:32"
+              "location": "tests/step_definitions/functional_step.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 19000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
-            "name": "I enter first name 'John', last name 'Nguyen' and postal code '550000'",
+            "name": "click on the Checkout button",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:35"
+              "location": "tests/step_definitions/functional_step.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 84000000
+              "duration": 45000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "click on the Continue button",
+            "name": "I enter first name 'John', last name 'Nguyen' and postal code '550000'",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:41"
+              "location": "tests/step_definitions/functional_step.js:36"
             },
             "result": {
               "status": "passed",
-              "duration": 82000000
+              "duration": 206000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "click on Finish button",
+            "name": "click on the Continue button",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:44"
+              "location": "tests/step_definitions/functional_step.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "click on Finish button",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 17,
+            "line": 18,
             "name": "message 'THANK YOU FOR YOUR ORDER' displays",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:48"
+              "location": "tests/step_definitions/functional_step.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 3027000000
             }
           },
           {
@@ -178,18 +178,23 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1455000000
+              "duration": 2480000000
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@test1",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "functional;as-a-standard-user-i-can-buy-product",
         "keyword": "Scenario Outline",
-        "line": 7,
+        "line": 8,
         "name": "As a standard user I can buy product",
         "steps": [
           {
@@ -197,277 +202,146 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 310000000
+              "duration": 329000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "navigates to the url 'https://www.saucedemo.com/'",
             "match": {
               "location": "tests/step_definitions/login_step.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 405000000
+              "duration": 362000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 5,
+            "line": 6,
             "name": "login to the system with username 'standard_user' and password 'secret_sauce'",
             "match": {
               "location": "tests/step_definitions/functional_step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 331000000
+              "duration": 545000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
+            "line": 9,
             "name": "I add 'Sauce Labs Bolt T-Shirt' to cart",
             "match": {
               "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 304000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I add 'Sauce Labs Fleece Jacket' to cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 146000000
+              "duration": 224000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "verify the number of badge is '2'",
+            "name": "I add 'Sauce Labs Fleece Jacket' to cart",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:15"
+              "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 67000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "I go to shopping cart",
+            "name": "verify the number of badge is '2'",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:20"
+              "location": "tests/step_definitions/functional_step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 87000000
+              "duration": 1516000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "verify 'Sauce Labs Bolt T-Shirt' and 'Sauce Labs Fleece Jacket' are displayed",
+            "name": "I go to shopping cart",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:25"
+              "location": "tests/step_definitions/functional_step.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 54000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "click on the Checkout button",
+            "name": "verify 'Sauce Labs Bolt T-Shirt' and 'Sauce Labs Fleece Jacket' are displayed",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:32"
+              "location": "tests/step_definitions/functional_step.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 84000000
+              "duration": 19000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
-            "name": "I enter first name 'John', last name 'Nguyen' and postal code '550000'",
+            "name": "click on the Checkout button",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:35"
+              "location": "tests/step_definitions/functional_step.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 74000000
+              "duration": 49000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "click on the Continue button",
+            "name": "I enter first name 'John', last name 'Nguyen' and postal code '550000'",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:41"
+              "location": "tests/step_definitions/functional_step.js:36"
             },
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 263000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
+            "name": "click on the Continue button",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
             "name": "click on Finish button",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:44"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 102000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 17,
-            "name": "message 'THANK YOU FOR YOUR ORDER' displays",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 987000000
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "functional;user-can-remove-the-item-that-selected",
-        "keyword": "Scenario Outline",
-        "line": 25,
-        "name": "User can remove the item that selected",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 287000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "navigates to the url 'https://www.saucedemo.com/'",
-            "match": {
-              "location": "tests/step_definitions/login_step.js:4"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 386000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "login to the system with username 'standard_user' and password 'secret_sauce'",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 386000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 26,
-            "name": "I add 'Sauce Labs Backpack' to cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 279000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 27,
-            "name": "I add 'Sauce Labs Bike Light' to cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 78000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "I add 'Sauce Labs Bolt T-Shirt' to cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 79000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 29,
-            "name": "verify the number of badge is '3'",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 20000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 30,
-            "name": "I go to shopping cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:20"
+              "location": "tests/step_definitions/functional_step.js:46"
             },
             "result": {
               "status": "passed",
@@ -476,41 +350,15 @@
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 31,
-            "name": "I remove 'Sauce Labs Backpack' from cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:53"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 50000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 32,
-            "name": "I remove 'Sauce Labs Bike Light' from cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:53"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 43000000
-            }
-          },
-          {
-            "arguments": [],
             "keyword": "Then ",
-            "line": 33,
-            "name": "verify the number of badge is '1'",
+            "line": 18,
+            "name": "message 'THANK YOU FOR YOUR ORDER' displays",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:15"
+              "location": "tests/step_definitions/functional_step.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 3031000000
             }
           },
           {
@@ -518,18 +366,23 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 826000000
+              "duration": 2444000000
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@test1",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "functional;user-can-remove-the-item-that-selected",
         "keyword": "Scenario Outline",
-        "line": 25,
+        "line": 26,
         "name": "User can remove the item that selected",
         "steps": [
           {
@@ -537,66 +390,66 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 435000000
+              "duration": 313000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "navigates to the url 'https://www.saucedemo.com/'",
             "match": {
               "location": "tests/step_definitions/login_step.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 468000000
+              "duration": 384000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 5,
+            "line": 6,
             "name": "login to the system with username 'standard_user' and password 'secret_sauce'",
             "match": {
               "location": "tests/step_definitions/functional_step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 409000000
+              "duration": 496000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 26,
-            "name": "I add 'Sauce Labs Bolt T-Shirt' to cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 197000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 27,
-            "name": "I add 'Sauce Labs Bike Light' to cart",
+            "name": "I add 'Sauce Labs Backpack' to cart",
             "match": {
               "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 70000000
+              "duration": 294000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 28,
-            "name": "I add 'Sauce Labs Fleece Jacket' to cart",
+            "name": "I add 'Sauce Labs Bike Light' to cart",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I add 'Sauce Labs Bolt T-Shirt' to cart",
             "match": {
               "location": "tests/step_definitions/functional_step.js:11"
             },
@@ -608,66 +461,66 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 29,
+            "line": 30,
             "name": "verify the number of badge is '3'",
             "match": {
               "location": "tests/step_definitions/functional_step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 42000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 30,
-            "name": "I go to shopping cart",
-            "match": {
-              "location": "tests/step_definitions/functional_step.js:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 74000000
+              "duration": 1511000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 31,
-            "name": "I remove 'Sauce Labs Bolt T-Shirt' from cart",
+            "name": "I go to shopping cart",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:53"
+              "location": "tests/step_definitions/functional_step.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 54000000
+              "duration": 58000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 32,
-            "name": "I remove 'Sauce Labs Bike Light' from cart",
+            "name": "I remove 'Sauce Labs Backpack' from cart",
             "match": {
-              "location": "tests/step_definitions/functional_step.js:53"
+              "location": "tests/step_definitions/functional_step.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I remove 'Sauce Labs Bike Light' from cart",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 33,
+            "line": 34,
             "name": "verify the number of badge is '1'",
             "match": {
               "location": "tests/step_definitions/functional_step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 1522000000
             }
           },
           {
@@ -675,19 +528,191 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 950000000
+              "duration": 1244000000
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@test1",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "functional;user-can-remove-the-item-that-selected",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "User can remove the item that selected",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "navigates to the url 'https://www.saucedemo.com/'",
+            "match": {
+              "location": "tests/step_definitions/login_step.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "login to the system with username 'standard_user' and password 'secret_sauce'",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I add 'Sauce Labs Bolt T-Shirt' to cart",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I add 'Sauce Labs Bike Light' to cart",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I add 'Sauce Labs Fleece Jacket' to cart",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "verify the number of badge is '3'",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1534000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I go to shopping cart",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I remove 'Sauce Labs Bolt T-Shirt' from cart",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I remove 'Sauce Labs Bike Light' from cart",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "verify the number of badge is '1'",
+            "match": {
+              "location": "tests/step_definitions/functional_step.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1518000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1247000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "functional",
-    "line": 1,
+    "line": 2,
     "keyword": "Feature",
     "name": "functional",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@test1",
+        "line": 1
+      }
+    ],
     "uri": "tests/features/functional.feature"
   },
   {
@@ -705,7 +730,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 354000000
+              "duration": 338000000
             }
           },
           {
@@ -718,7 +743,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 424000000
+              "duration": 341000000
             }
           },
           {
@@ -731,7 +756,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 116000000
+              "duration": 125000000
             }
           },
           {
@@ -744,7 +769,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 90000000
             }
           },
           {
@@ -757,7 +782,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 165000000
+              "duration": 124000000
             }
           },
           {
@@ -770,7 +795,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 144000000
             }
           },
           {
@@ -778,7 +803,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 787000000
+              "duration": 881000000
             }
           }
         ],
@@ -797,7 +822,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 366000000
+              "duration": 363000000
             }
           },
           {
@@ -810,7 +835,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 383000000
+              "duration": 365000000
             }
           },
           {
@@ -823,7 +848,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 119000000
+              "duration": 138000000
             }
           },
           {
@@ -836,7 +861,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 102000000
             }
           },
           {
@@ -849,7 +874,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 118000000
+              "duration": 114000000
             }
           },
           {
@@ -858,11 +883,11 @@
             "line": 16,
             "name": "the error message 'Epic sadface: Sorry, this user has been locked out.' displays",
             "match": {
-              "location": "tests/step_definitions/login_step.js:23"
+              "location": "tests/step_definitions/login_step.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 38000000
             }
           },
           {
@@ -870,7 +895,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 645000000
+              "duration": 789000000
             }
           }
         ],
