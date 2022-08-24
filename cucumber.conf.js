@@ -22,12 +22,8 @@ BeforeAll(async function () {
  // Create a new browser context and page per scenario
  Before(async function (scenario) {
     global.context = await global.browser.newContext({
-      recordVideo: {
-         dir: 'videos/',
-         size: { width: 1920, height: 1080}
-      },
       viewport: {
-         width: 1920,
+         width: 1520,
          height: 1080,
        },
        recordVideo: {

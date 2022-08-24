@@ -1,9 +1,10 @@
+@test1
 Feature: functional
 
   Background: User is logged in
     Given navigates to the url 'https://www.saucedemo.com/'
     And login to the system with username 'standard_user' and password 'secret_sauce'
-
+  
   Scenario Outline: As a standard user I can buy product
     When I add '<item1>' to cart
     And I add '<item2>' to cart
