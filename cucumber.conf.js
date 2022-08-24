@@ -31,7 +31,7 @@ BeforeAll(async function () {
          height: 1080,
        },
        recordVideo: {
-         dir: "/reports/videos" +scenario.pickle.name,
+         dir: "videos/" +scenario.pickle.name,
          size: {width: 1920,height: 1080},
        },
     });
