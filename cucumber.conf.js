@@ -6,7 +6,8 @@ const playwright  = require("playwright");
 setDefaultTimeout(60000)
 BeforeAll(async function () {
     global.browser = await playwright['chromium'].launch({
-       headless:false
+       headless:false,
+       fullyParallel: true
 
     });
  

@@ -8,7 +8,7 @@ Feature: Login
     And enter password 'secret_sauce'
     And I click on the Login button 
     Then I can access the system
-    
+  
   Scenario: As a locked user I cannot access to the system
     When I enter username 'locked_out_user'
     And enter password 'secret_sauce'
