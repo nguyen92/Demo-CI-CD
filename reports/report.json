@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 744000000
+              "duration": 686000000
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 392000000
+              "duration": 443000000
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 539000000
+              "duration": 507000000
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 307000000
+              "duration": 514000000
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 124000000
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1535000000
+              "duration": 1545000000
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 48000000
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 20000000
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45000000
+              "duration": 100000000
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 206000000
+              "duration": 468000000
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 112000000
+              "duration": 164000000
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 88000000
             }
           },
           {
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3027000000
+              "duration": 2049000000
             }
           },
           {
@@ -178,7 +178,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2480000000
+              "duration": 1800000000
             }
           }
         ],
@@ -202,7 +202,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 329000000
+              "duration": 371000000
             }
           },
           {
@@ -215,7 +215,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 362000000
+              "duration": 451000000
             }
           },
           {
@@ -228,7 +228,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 545000000
+              "duration": 699000000
             }
           },
           {
@@ -241,7 +241,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 224000000
+              "duration": 375000000
             }
           },
           {
@@ -254,7 +254,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 67000000
+              "duration": 81000000
             }
           },
           {
@@ -267,7 +267,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1516000000
+              "duration": 1534000000
             }
           },
           {
@@ -280,7 +280,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 54000000
+              "duration": 70000000
             }
           },
           {
@@ -293,7 +293,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 35000000
             }
           },
           {
@@ -306,7 +306,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 49000000
+              "duration": 77000000
             }
           },
           {
@@ -319,7 +319,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 263000000
+              "duration": 327000000
             }
           },
           {
@@ -332,7 +332,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 162000000
+              "duration": 78000000
             }
           },
           {
@@ -344,8 +344,9 @@
               "location": "tests/step_definitions/functional_step.js:46"
             },
             "result": {
-              "status": "passed",
-              "duration": 71000000
+              "status": "failed",
+              "duration": 56000000,
+              "error_message": "page.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"#finish\"\n  selector resolved to visible <button id=\"finish\" name=\"finish\" data-test=\"finish\" cla…>Finish</button>\nattempting click action\n  waiting for element to be visible, enabled and stable\n============================================================\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/tests/step_definitions/functional_step.js:48:16)"
             }
           },
           {
@@ -357,16 +358,17 @@
               "location": "tests/step_definitions/functional_step.js:51"
             },
             "result": {
-              "status": "passed",
-              "duration": 3031000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 2444000000
+              "status": "failed",
+              "duration": 5000000,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/cucumber.conf.js:45:37)"
             }
           }
         ],
@@ -389,8 +391,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 313000000
+              "status": "failed",
+              "duration": 34000000,
+              "error_message": "browserContext.newPage: Browser closed.\n==================== Browser output: ====================\n<launching> /Users/john/Library/Caches/ms-playwright/chromium-1005/chrome-mac/Chromium.app/Contents/MacOS/Chromium --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-sync --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --enable-use-zoom-for-dsf=false --no-sandbox --user-data-dir=/var/folders/gj/wmwp3s6d0bv7rlg1kjmf7z2h0000gn/T/playwright_chromiumdev_profile-BHLGyF --remote-debugging-pipe --no-startup-window\n<launched> pid=44905\n[pid=44905][err] objc[44917]: Class WebSwapCGLLayer is implemented in both /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/Frameworks/libANGLE-shared.dylib (0x7ffa4dbdf318) and /Users/john/Library/Caches/ms-playwright/chromium-1005/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/102.0.5005.40/Libraries/libGLESv2.dylib (0x108743e28). One of the two will be used. Which one is undefined.\n[pid=44905] <gracefully close start>\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/cucumber.conf.js:35:40)"
             }
           },
           {
@@ -402,8 +405,8 @@
               "location": "tests/step_definitions/login_step.js:4"
             },
             "result": {
-              "status": "passed",
-              "duration": 384000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -415,8 +418,8 @@
               "location": "tests/step_definitions/functional_step.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 496000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -428,8 +431,8 @@
               "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 294000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -441,8 +444,8 @@
               "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 38000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -454,8 +457,8 @@
               "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 65000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -467,8 +470,8 @@
               "location": "tests/step_definitions/functional_step.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 1511000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -480,8 +483,8 @@
               "location": "tests/step_definitions/functional_step.js:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 58000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -493,8 +496,8 @@
               "location": "tests/step_definitions/functional_step.js:58"
             },
             "result": {
-              "status": "passed",
-              "duration": 49000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -506,8 +509,8 @@
               "location": "tests/step_definitions/functional_step.js:58"
             },
             "result": {
-              "status": "passed",
-              "duration": 51000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -519,16 +522,17 @@
               "location": "tests/step_definitions/functional_step.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 1522000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 1244000000
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/cucumber.conf.js:45:37)"
             }
           }
         ],
@@ -551,8 +555,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 372000000
+              "status": "failed",
+              "duration": 2000000,
+              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/cucumber.conf.js:25:22)"
             }
           },
           {
@@ -564,8 +569,8 @@
               "location": "tests/step_definitions/login_step.js:4"
             },
             "result": {
-              "status": "passed",
-              "duration": 353000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -577,8 +582,8 @@
               "location": "tests/step_definitions/functional_step.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 402000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -590,8 +595,8 @@
               "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 409000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -603,8 +608,8 @@
               "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 52000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -616,8 +621,8 @@
               "location": "tests/step_definitions/functional_step.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 58000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -629,8 +634,8 @@
               "location": "tests/step_definitions/functional_step.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 1534000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -642,8 +647,8 @@
               "location": "tests/step_definitions/functional_step.js:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 59000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -655,8 +660,8 @@
               "location": "tests/step_definitions/functional_step.js:58"
             },
             "result": {
-              "status": "passed",
-              "duration": 53000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -668,8 +673,8 @@
               "location": "tests/step_definitions/functional_step.js:58"
             },
             "result": {
-              "status": "passed",
-              "duration": 43000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -681,16 +686,17 @@
               "location": "tests/step_definitions/functional_step.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 1518000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 1247000000
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/cucumber.conf.js:45:37)"
             }
           }
         ],
@@ -729,8 +735,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 338000000
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/cucumber.conf.js:25:22)"
             }
           },
           {
@@ -742,8 +749,8 @@
               "location": "tests/step_definitions/login_step.js:4"
             },
             "result": {
-              "status": "passed",
-              "duration": 341000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -755,8 +762,8 @@
               "location": "tests/step_definitions/login_step.js:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 125000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -768,8 +775,8 @@
               "location": "tests/step_definitions/login_step.js:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 90000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -781,8 +788,8 @@
               "location": "tests/step_definitions/login_step.js:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 124000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -794,16 +801,17 @@
               "location": "tests/step_definitions/login_step.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 144000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 881000000
+              "status": "failed",
+              "duration": 2000000,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/cucumber.conf.js:45:37)"
             }
           }
         ],
@@ -821,8 +829,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 363000000
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "browser.newContext: Target page, context or browser has been closed\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/cucumber.conf.js:25:22)"
             }
           },
           {
@@ -834,8 +843,8 @@
               "location": "tests/step_definitions/login_step.js:4"
             },
             "result": {
-              "status": "passed",
-              "duration": 365000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -847,8 +856,8 @@
               "location": "tests/step_definitions/login_step.js:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 138000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -860,8 +869,8 @@
               "location": "tests/step_definitions/login_step.js:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 102000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -873,8 +882,8 @@
               "location": "tests/step_definitions/login_step.js:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 114000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -886,16 +895,17 @@
               "location": "tests/step_definitions/login_step.js:22"
             },
             "result": {
-              "status": "passed",
-              "duration": 38000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 789000000
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (/Users/john/Downloads/Automation/OP_PW/Demo-CI-CD/cucumber.conf.js:45:37)"
             }
           }
         ],

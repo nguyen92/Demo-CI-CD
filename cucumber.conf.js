@@ -4,8 +4,9 @@ const playwright  = require("playwright");
 
 // in milliseconds
 setDefaultTimeout(60000)
+const browser = process.env.BROWSER
 BeforeAll(async function () {
-    global.browser = await playwright['chromium'].launch({
+    global.browser = await playwright[browser].launch({
        headless:false,
        fullyParallel: true
 
